@@ -58,7 +58,7 @@ export default function App({ runtime, ims }) {
 
   return (
     <Provider theme={defaultTheme} colorScheme="light">
-      <View padding="size-400">
+      <View padding="size-400" backgroundColor="green-400" minHeight="100vh">
         <Flex direction="column" alignItems="center" justifyContent="center" minHeight="size-6000" gap="size-300">
           <View
             backgroundColor="gray-50"
